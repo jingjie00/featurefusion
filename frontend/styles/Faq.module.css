@@ -1,0 +1,36 @@
+/* .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+
+    color: #eab308;
+  }
+   */
+  .hideArrow summary ::marker{ display:none; } 
+  
+  .hideArrow summary{ list-style: none }
+
+/* .showArrowRight > summary {
+  list-style-type: '►   ';
+}
+
+.showArrowRight[open] > summary {
+  list-style-type: '▼   ';
+} */
+
+.showArrowRight > summary::marker {
+  content: none;
+}
+
+.showArrowRight > summary::after {
+  content:  url('../images/faq/chevron-down.svg');
+}
+
+.showArrowRight[open] > summary::after {
+  content:  url('../images/faq/chevron-up.svg');
+}
+
+.showArrowRightInner > summary::after {
+  content:  url('../images/faq/chevron-down.svg');
+}
+
+.showArrowRightInner[open] > summary::after {
+  content:  url('../images/faq/chevron-up.svg');
+}

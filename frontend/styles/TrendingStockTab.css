@@ -1,0 +1,69 @@
+.trending-stock-tab__content__list {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.trending-stock-tab__content__list__item {
+  display: grid;
+  grid-template-areas:
+    "logo ticker-name"
+    "ticker ticker-name"
+    "ticker price"
+    "ticker change"
+    "ticker change-percent";
+
+  gap: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+
+  transition: box-shadow 0.3s ease;
+}
+
+.trending-stock-tab__content__list__item:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.trending-stock-tab__content__list__item__logo {
+  grid-area: logo;
+}
+
+.trending-stock-tab__content__list__item__logo img {
+  width: 50px;
+}
+
+.trending-stock-tab__content__list__item__ticker,
+.trending-stock-tab__content__list__item__ticker-name,
+.trending-stock-tab__content__list__item__price,
+.trending-stock-tab__content__list__item__change,
+.trending-stock-tab__content__list__item__change-percent {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.trending-stock-tab__content__list__item__ticker {
+  grid-area: ticker;
+}
+
+.trending-stock-tab__content__list__item__ticker-name {
+  grid-area: ticker-name;
+}
+
+.trending-stock-tab__content__list__item__price {
+  grid-area: price;
+}
+
+.trending-stock-tab__content__list__item__change {
+  grid-area: change;
+}
+
+.trending-stock-tab__content__list__item__change-percent {
+  grid-area: change-percent;
+}

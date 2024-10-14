@@ -1,0 +1,144 @@
+.forum {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.forum__searchbar {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: transparent;
+}
+
+.forum__search-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.forum__title {
+  text-align: center;
+  color: #333;
+  font-size: 2em;
+}
+
+.forum__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.forum__actions > * {
+  background: none;
+  border: none;
+  color: #0079d3;
+  cursor: pointer;
+  font-size: 0.9em;
+  margin-right: 10px;
+
+  transition: all 0.5s ease;
+}
+
+.forum__actions > *:hover {
+  color: #005ea3;
+  text-decoration: underline;
+}
+
+.voted {
+  color: black;
+}
+
+.forum__posts {
+  padding: 20px;
+}
+
+.forum__post {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.forum__post__header {
+  margin-bottom: 10px;
+}
+
+.forum__post__title {
+  margin: 0;
+  color: #0079d3;
+  font-size: 1.5em;
+}
+
+.forum__post__comments-section {
+  margin-top: 20px;
+}
+
+.forum__comment {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.forum__comment__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.forum__comment__user-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.forum__comment__username {
+  color: #333;
+  font-weight: bold;
+}
+
+.forum__comment__content {
+  margin-bottom: 20px;
+}
+
+.forum__comment__content > img {
+  max-width: 40vw;
+}
+
+.forum__comment__upvote,
+.forum__comment__downvote {
+  background: none;
+  border: none;
+  color: #0079d3;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.forum__expand {
+  background: none;
+  border: none;
+  color: #0079d3;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.collapsed {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.collapsed img {
+  width: 10vw;
+}
+
+.red-border {
+  border: 2px solid red;
+}
