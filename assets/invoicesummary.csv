@@ -1,0 +1,13 @@
+Invoice No.,Date,Customer Name,Product,Quantity,Unit Price,Total Price
+1,10/14/2024,Amy Johnson,Red Bottle,2,4,7,Pending
+2,10/14/2024,Uncle Roger,Blue Bottle,2,4,8,Paid
+2,10/14/2024,Uncle Roger,Orange Colander,3,3,9,Paid
+2,10/14/2025,Amy Johnson,Yellow Bottle,4,3,12,Paid
+3,10/15/2024,Will Turner,White Colander,1,2,3,Paid
+4,10/16/2024,Clara Davis,White Bottle,9,9,12,Pending
+5,10/16/2024,Clara Davis,Black Bottle,9,9,12,Pending
+6,10/16/2024,Clara Davis,White Steel Bottle,9,9,12,Pending
+7,10/16/2024,John Davis,White Steel Bottle,19,9,12,Pending
+8,10/16/2024,Clara Pres,White Steel Bottle,9,9,12,Pending
+9,10/16/2024,Vali Davis,White Steel Bottle,29,9,12,Pending
+10,10/16/2024,Clara Davis,Black Steel Bottle,9,9,12,Pending
